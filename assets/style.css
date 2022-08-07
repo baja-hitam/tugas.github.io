@@ -15,7 +15,7 @@ nav{
 h1{
   margin: 0;
 }
-ul li{
+nav > ul li{
   display: inline-block;
   list-style-type: none;
   font-size: larger;
