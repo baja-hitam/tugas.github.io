@@ -59,6 +59,7 @@ nav > ul li{
 }
 .menu-open{
   max-height: 300px;
+  overflow: auto;
   opacity: 1;
 }
 .menu:nth-last-child(1){
