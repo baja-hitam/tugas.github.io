@@ -48,7 +48,7 @@ nav > ul li{
   text-decoration: none;
   position: absolute;
   padding: 0;
-  width: 150px;
+  width: 250px;
   max-height: 0;
   overflow: hidden;
   margin: 0;
@@ -64,7 +64,8 @@ nav > ul li{
 }
 .menu-open{
   max-height: 300px;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
   opacity: 1;
 }
 .menu:nth-last-child(1){
